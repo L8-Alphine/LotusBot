@@ -1,0 +1,78 @@
+# Lotus Bot Configuration
+# Bot created by Alphine CEO of NexxaWave Tech
+
+# Default bot configuration
+# All bot configuration options are listed here. If you have any questions, please
+# ask the bot developer.
+
+# Bot Token
+token: YOUR_BOT_TOKEN_HERE
+# The default language file for the bot. (en = English)
+# To add a new language, create a new file in the lang folder named <lang>_messages.yml
+language: en
+# Main Guild ID (The guild the bot will be used in)
+main_guild_id: YOUR_GUILD_ID_HERE
+# Other Guilds that the bot can be used in.
+Guilds:
+  enabled: false
+  allowed_guilds:
+    - "GUILD_ID_HERE"
+    - "GUILD_ID_HERE"
+    - "GUILD_ID_HERE"
+    - "GUILD_ID_HERE"
+# Main Logging Channel ID:
+logging_channel_id: "LOGGING_CHANNEL_ID"
+# Discord Owner ID (Can use all bot commands and has full guild control access)
+owner_id: YOUR_DISCORD_ID_HERE
+
+# Bot Admins ID (Can use all bot commands)
+bot_admins:
+  - "YOUR_DISCORD_ID_HERE"
+  - "YOUR_DISCORD_ID_HERE"
+
+# Support Role ID (Support Role for the bot)
+support_role_id: "SUPPORT_ROLE_ID"
+
+# Bot Status
+status:
+  - ["PLAYING", "on the Lotus Discord"]
+  - ["WATCHING", "over the new members"]
+  - ["LISTENING", "to your requests"]
+
+# Welcome Message Configuration
+WelcomeSystem:
+  enabled: true
+  use_embed: true
+  private_message: true
+  welcome_channel_id: "WELCOME_CHANNEL_ID"
+
+# Ticket System Configuration
+TicketSystem:
+  enabled: true
+  protect_channels: true
+  use_embeds: true
+  use_buttons: true
+  # Possible Colors are: GREEN, RED, BLUE, YELLOW, PURPLE, ORANGE, AQUA
+  embed_open_color: "GREEN"
+  embed_close_color: "RED"
+
+# Private Voice Channel Configuration
+Voice:
+  enabled: true
+  default_user_limit: 10
+
+# Streamer System Configuration
+StreamerSystem:
+  enabled: true
+  use_embed: true
+  streamer_role: "STREAMER_ROLE_ID"
+  streamer_channel: "STREAMER_CHANNEL_ID"
+  streamer_notification_role: "STREAMER_NOTIFICATION_ROLE_ID"
+
+#FQA System Configuration
+FQA:
+  enabled: true
+  use_embed: true
+  fqa_channel: "FQA_CHANNEL_ID"
+  fqa_role: "FQA_ROLE_ID"
+

@@ -1,0 +1,53 @@
+# Messages for the entire bot
+# If you have any questions please contact the bot developer.
+
+# Welcome System
+welcomemessage: "Welcome to the server {user}! Please read the rules and enjoy your stay."
+welcomeprivatemessage:
+  - | 
+    Welcome to the server {user}!
+    Please read the rules and enjoy your stay
+    If you have any questions, feel free to ask a staff member.
+    Make sure you create a ticket if you need help or if you need
+    to resister.
+    |
+
+# Ticket System
+ticketembed: "Ticket System"
+ticketmessage: "Welcome to the the general ticket menu. Please select a category to open a ticket."
+ticketclosemessage: "Ticket closed. If you need further assistance, please open a new ticket."
+ticketopenmessage: "Ticket opened. Please wait for a staff member to assist you."
+
+# Private Voice System
+voicechannelname: "{user}'s Voice Channel"
+voicechannelcategoryname: "Private Voice Channels"
+voicechannelcreated: "Your private voice channel has been created. @{user}"
+voicechanneldeleted: "Your private voice channel has been deleted. @{user}"
+voicechanneluserlimit: "User limit has been set to {limit}."
+voicechanneluserlimiterror: "User limit must be between 0 and 99."
+voicechanneluserlimitreset: "User limit has been reset."
+voicechanneluserlimitreseterror: "User limit is already set to the default value."
+voicechannellocked: "Your private voice channel has been locked."
+voicechannelunlocked: "Your private voice channel has been unlocked."
+voicechannelerror: "An error occurred while creating your private voice channel. Please try again later."
+
+# Streamer System
+streamerembed: "Live"
+streamermessage: "You have subscribed to the streamer notifications. You will now receive notifications when a streamer goes live."
+streamerunsubscribed: "You have unsubscribed from the streamer notifications."
+
+# FQA System
+faqembed: "FAQ"
+faqmessage: "Frequently Asked Questions"
+faqnotfound: "FAQ not found."
+faqnotfoundmessage: "The FAQ you are looking for does not exist. Please try again."
+faqlist: "FAQ List"
+faqlistmessage: "Here is a list of all available FAQs:"
+faqcreated: "FAQ created."
+faqcreatedmessage: "The FAQ has been created successfully."
+faqdeleted: "FAQ deleted."
+faqdeletedmessage: "The FAQ has been deleted successfully."
+faqupdated: "FAQ updated."
+faqupdatedmessage: "The FAQ has been updated successfully."
+faqerror: "An error occurred while processing your request. Please try again later."
+
